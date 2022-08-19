@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Quicksand:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #ffdbd7, #ffb2c1);
+}
+
+
+.container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.box1{
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px 0 0 10px;
+    background-color: aliceblue;
+}
+
+.box1 h1{
+    font-family: 'Silkscreen', cursive;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+img{
+    width: 40px;
+    height: 40x;
+    background-color: transparent;
+}
+
+.foto button{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0 10px 0 0;
+    padding: 1px;
+}
+
+
+.box2{
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 0 10px 10px 0;
+    background: linear-gradient(360deg, #ce7095, #855e6e);
+}
+
+
+h4{
+    margin-top: 40px;
+}
+
+.formulario input{
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+    text-align: center;
+    background-color: #d0dccb;
+    border: none;    
+}
+
+button{
+    text-decoration: none;  
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-login{
+    border: none;
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: 'Silkscreen', cursive;
+    background-color: #663366;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px 8px 10px;
+}
+
+.btn-a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    margin-top: 5px;
+
+}
+
+.box1, .box2{
+    box-shadow: 0 0 4px 2px #d7c7be;
+}
+
+.box2 h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.box2 h5{
+    font-size: 18px;
+    color: white;
+}
