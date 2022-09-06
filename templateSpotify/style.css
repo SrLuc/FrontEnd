@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Mulish:wght@300;400&family=Open+Sans:wght@300;400&family=Quicksand:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(21, 18, 14);
+}
+
+
+.container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    font-size: large;
+}
+
+#porto{
+    margin-left: 2rem;
+    font-size: 2.4rem;
+
+}
+
+#btn-register button{
+    text-align: center;
+    height: 2rem;
+    width: 8rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    box-shadow: 0 0 3px 0 black;
+    border: none;
+
+    
+}
+
+.nav-list{
+    display: flex;
+    gap: 5rem;
+    height: 5rem;
+    align-items: center;
+}
+
+.nav-item-list{
+    list-style: none;
+}
+
+.img-div .img{
+    width: 100%;
+    height: 60%;
+
+    filter: blur(1.5px);
+}
+
+
+
+.box-text{
+    position: absolute;
+    top: 30rem;
+    left: 85rem;
+
+    color: aliceblue;
+
+}
+
+.box-text{
+    width: 400px;
+    height: 150px;
+    
+}
+
+.box-text h1{
+    position: absolute;
+    bottom: 4rem;
+    text-align:left ;
+    font-size: 80px;
+
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 0 5px black;
+}
+
+.box-text h4{
+    position: absolute;
+    bottom: -1rem;
+    font-size: 25px;
+
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 0 5px black;
+}
+
+.box-text button{
+    position: absolute;
+    bottom: -7rem;
+
+    padding: 1rem;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 0 5px white;
+    color: rgb(75, 59, 59);
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    border: none;
+
+    cursor: pointer;
+
+
+}
+
+
+.backdor{
+    display: flex;
+
+}
+
+.cards-div{
+    display: flex;  
+    justify-content: space-between;
+    position: absolute;
+    left: 1rem;
+    bottom: -8rem;
+    text-align: center;
+    height: 15rem;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.card1, .card2, .card3{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+
+
+.icon{
+    height: 5rem;
+    width: 5rem;
+}
+
+img{
+    height: 100%;
+    width: 100%;    
+}
