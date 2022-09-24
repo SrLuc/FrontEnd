@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container header{
+    display: flex;
+    
+}
+
+#logo{
+    display: flex;
+
+    justify-content: flex-start;
+
+    height: 4rem;
+    width: 14rem;
+
+    margin: 20px 5px 0 15px;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+
+    width: 100vw;
+    height: 7rem;
+
+    justify-content: space-between;
+
+}
+
+.nav-list-itens{
+    display: flex;
+    justify-content: flex-end;
+
+    gap: 1.5rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    
+}
+
+.nav-list-itens a{
+    text-decoration: none;
+    color: white;
+
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(196, 226, 199);
+
+    padding-top: 5rem;
+    height: 30rem;
+}
+
+.main-content h1{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 50px
+
+}
+
+.main-content h6{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px
+}
+
+.main-content p{
+    text-align: center;
+
+    width: 75%;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+
+    margin-top: 10px;
+}
+
+.btn-premium{
+    font-size: large;
+    font-weight: bold;
+
+    margin: 40px;
+    padding: 20px;
+
+    border-radius: 50px;
+
+    background-color: black;
+    color: blanchedalmond;
+
+    cursor: pointer;
+}
+
+
+.main-content-part2{
+     text-align: center;
+
+}
+
+.main-content-part2 h1{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 2rem 0 1rem 0;
+}
+
+
+.box-itens{
+    font-family: 'Hind Siliguri', sans-serif;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box-itens span{
+    padding: 40px;
+    margin: 10px;
+}
+
+#box-itens-img{
+    width: 5rem;
+    height: 5rem;
+}
