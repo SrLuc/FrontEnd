@@ -1,146 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    height: 100%;
-    width: 100%;
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.container header{
-    display: flex;
-    
+.container header {
+  display: flex;
 }
 
-#logo{
-    display: flex;
+#logo {
+  display: flex;
 
-    justify-content: flex-start;
+  justify-content: flex-start;
 
-    height: 4rem;
-    width: 14rem;
-
-    margin: 20px 5px 0 15px;
+  height: 4rem;
+  width: 14rem;
 }
 
-header{
-    height: 100%;
-    width: 100%;
+header {
+  height: 100%;
+  width: 100%;
 }
 
-.nav-list{
-    display: flex;
-    border: 1px solid black;
-    background-color: black;
+.nav-list {
+  display: flex;
+  border: 1px solid black;
+  background-color: black;
 
-    width: 100vw;
-    height: 7rem;
+  width: 100vw;
+  height: 7rem;
 
-    justify-content: space-between;
-
+  justify-content: space-between;
 }
 
-.nav-list-itens{
-    display: flex;
-    justify-content: flex-end;
+.nav-list-itens {
+  display: flex;
+  justify-content: flex-end;
 
-    gap: 1.5rem;
-    padding-top: 3rem;
-    padding-right: 2rem;
-    
+  gap: 1.5rem;
+  padding-top: 0.5rem;
+  padding-right: 2rem;
 }
 
-.nav-list-itens a{
-    text-decoration: none;
-    color: white;
+.nav-list-itens a {
+  text-decoration: none;
+  color: white;
 
-    font-weight: bold;
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 20px;
-
+  font-weight: bold;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
 }
 
-.main-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    background-color: rgb(196, 226, 199);
+  background-color: rgb(196, 226, 199);
 
-    padding-top: 5rem;
-    height: 30rem;
+  padding-top: 5rem;
+  height: 50rem;
+
+  background-image: url(/assets/guns.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.main-content h1{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 50px
-
+.main-content h1 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 50px;
+  color: azure;
 }
 
-.main-content h6{
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 25px
+.main-content h6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 25px;
+  color: azure;
 }
 
-.main-content p{
-    text-align: center;
-
-    width: 75%;
-
-    font-family: 'Hind Siliguri', sans-serif;
-    font-size: 15px;
-
-    margin-top: 10px;
+.main-content p {
+  text-align: center;
+  width: 75%;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
+  color: azure;
 }
 
-.btn-premium{
-    font-size: large;
-    font-weight: bold;
+.btn-premium {
+  font-size: 1.5rem;
+  font-weight: bold;
 
-    margin: 40px;
-    padding: 20px;
+  margin: 40px;
+  padding: 30px;
 
-    border-radius: 50px;
+  border-radius: 50px;
 
-    background-color: black;
-    color: blanchedalmond;
+  background-color: black;
+  color: blanchedalmond;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
-
-.main-content-part2{
-     text-align: center;
-
+.main-content-part2 {
+  text-align: center;
 }
 
-.main-content-part2 h1{
-    font-family: 'Hind Siliguri', sans-serif;
-    margin: 2rem 0 1rem 0;
+.main-content-part2 h1 {
+  font-family: "Hind Siliguri", sans-serif;
+  margin: 2rem 0 1rem 0;
 }
 
+.box-itens {
+  font-family: "Hind Siliguri", sans-serif;
 
-.box-itens{
-    font-family: 'Hind Siliguri', sans-serif;
-
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
 
-.box-itens span{
-    padding: 40px;
-    margin: 10px;
+.box-itens span {
+  padding: 40px;
+  margin: 10px;
 }
 
-#box-itens-img{
-    width: 5rem;
-    height: 5rem;
+#box-itens-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.footer-content {
+  border: 1px solid black;
+
+  background-color: black;
+
+  height: 100%;
+}
+
+.footer-content-itens,
+a {
+  text-decoration: none;
+  font-family: "Hind Siliguri", sans-serif;
+  color: white;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 2rem;
+}
+
+.ul-list-item {
+  text-align: right;
+  justify-content: center;
+  list-style: none;
+}
+
+.ul-list-item h5 {
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.ul-list-item li a {
+  font-size: 15px;
+  padding: 5px 0 5px 0;
+
+  justify-content: right;
+}
+
+#network-login {
+  width: 4rem;
+  height: 4rem;
+
+  margin-right: 1rem;
 }
