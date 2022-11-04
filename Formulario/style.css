@@ -8,18 +8,17 @@
 }
 
 body{
-    background: linear-gradient(90deg, #ffdbd7, #ffb2c1);
+    width: 100vw;
+    height: 100vh;
 }
 
 
 .container{
     padding-top: 100px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     align-content: center;
     justify-content: center;
-    outline: none;
 }
 
 
@@ -46,14 +45,6 @@ img{
     background-color: transparent;
 }
 
-.foto button{
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    margin: 0 10px 0 0;
-    padding: 1px;
-}
-
 
 .box2{
     width: 350px;
@@ -62,7 +53,7 @@ img{
     padding-top: 100px;
     font-family: 'Quicksand', sans-serif;
     border-radius: 0 10px 10px 0;
-    background: linear-gradient(360deg, #ce7095, #855e6e);
+    background-color: #e372c5;
 }
 
 
@@ -77,13 +68,6 @@ h4{
     text-align: center;
     background-color: #d0dccb;
     border: none;    
-}
-
-button{
-    text-decoration: none;  
-    border: none;
-    margin-bottom: 10px;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .btn-login{
@@ -123,4 +107,24 @@ a{
 .box2 h5{
     font-size: 18px;
     color: white;
+}
+
+.btnTheme{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 1px 2px 2px 1px gray;
+    font-weight:normal;
+    font-family: 'Silkscreen', cursive;
+    cursor: pointer;
+}
+
+.boxBnt{
+    margin: 1rem;
+}
+
+.ForgotPass{
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0.5rem;
 }
